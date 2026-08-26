@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My-portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header">
+      <a href="#hero">Khanzaib</a>
+    </div>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section id="hero">
+    <h1>Khanzaib Khan</h1>
+    <p>I am a Frontend Web Developer passionate about creating responsive and user-friendly websites.</p>
+    <a href="#projects" class="hero-btn">View My Work</a>
+  </section>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a dedicated frontend web developer with a strong focus on creating visually appealing and functional websites. I have experience in HTML, CSS, and JavaScript.</p>
+  </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Responsive Design</li>
+    </ul>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>Description of Project 1.</p>
+      <a href="https://khanzaib123khan123-bit.github.io/Khanzaib-Calculator/" target="_blank">My-Calculator</a>
+    </div>
+    <div class="project">
+      <h3>Project 2</h3>
+      <p>Description of Project 2.</p>
+      <a href="#">Project 2 Link</a>
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <a href="mailto:khanzaib123khan123@gmail.com">khanzaib123khan123@gmail.com</a>
+    <p>Whatsapp: <a href="https://wa.me/03045690515" target="_blank">03045690515</a></p>
+    <form class="form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2026 Khanzaib Khan. All rights reserved.</p>
+    
+  </footer>
+</body>
+</html>    
